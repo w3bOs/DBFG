@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DBFG
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/w3bOs/DBFG/raw/main/main.user.js
 // @version      1.1
 // @description  ssj4() ssj5() lssj() mui() ssjr() kaio() characters()
 // @author       CiberWeaboo
