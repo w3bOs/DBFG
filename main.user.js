@@ -8,6 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
+
 const script= document.createElement("script")
 script.type = "text/javascript"
 script.src = "https://hastebin.com/raw/docokobuxu"
