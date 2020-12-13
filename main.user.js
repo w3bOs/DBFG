@@ -4,8 +4,8 @@
 // @version      1.4
 // @description  ssj4() ssj5() lssj() mui() ssjr() kaio() characters() megaevo() shiny()
 // @author       CiberWeaboo
-// @match        https://japeal.com/dbfg/
-// @match        https://japeal.com/pkm/
+// @include      https://japeal.com/dbfg/
+// @include      https://japeal.com/pkm/
 // @grant        none
 // ==/UserScript==
 
