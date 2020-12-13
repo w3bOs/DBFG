@@ -5,6 +5,7 @@
 // @description  ssj4() ssj5() lssj() mui() ssjr() kaio() characters() megaevo()
 // @author       CiberWeaboo
 // @match        https://japeal.com/dbfg/
+// @match        https://japeal.com/pkm/
 // @grant        none
 // ==/UserScript==
 
