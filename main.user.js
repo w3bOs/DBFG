@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DBFG
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  ssj4() ssj5() lssj() mui() ssjr() kaio() characters()
 // @author       CiberWeaboo
 // @match        https://japeal.com/dbfg/
