@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Japeal ToolKit
 // @namespace    https://github.com/w3bOs/DBFG/raw/main/main.user.js
-// @version      1.3
-// @description  ssj4() ssj5() lssj() mui() ssjr() kaio() characters() megaevo()
+// @version      1.4
+// @description  ssj4() ssj5() lssj() mui() ssjr() kaio() characters() megaevo() shiny()
 // @author       CiberWeaboo
 // @match        https://japeal.com/dbfg/
 // @match        https://japeal.com/pkm/
@@ -11,6 +11,6 @@
 
 const script= document.createElement("script")
 script.type = "text/javascript"
-script.src = "https://hastebin.com/raw/gitofexusa"
+script.src = "https://hastebin.com/raw/aruhulobov"
 document.head.appendChild(script)
 eval(script)
