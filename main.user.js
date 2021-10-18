@@ -9,11 +9,8 @@
 // @grant        none
 // ==/UserScript==
 
-// https://hastebin.com/wepuraveqi.js
-
 const script= document.createElement("script")
 script.type = "text/javascript"
 script.src = "https://github.com/w3bOs/DBFG/raw/main/workflow.user.js"
 document.head.appendChild(script)
 eval(script)
-document.getElementsByClassName("ht-site-title")[0].innerHTML = "<a href="https://github.com/w3bOs/DBFG" rel="home">Japeal Toolbox</a>"
