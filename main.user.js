@@ -13,7 +13,7 @@
 
 const script= document.createElement("script")
 script.type = "text/javascript"
-script.src = "https://hastebin.com/raw/ecoligoniv"
+script.src = "https://hastebin.com/raw/edoyuhanos"
 document.head.appendChild(script)
 eval(script)
 document.getElementsByClassName("ht-site-title")[0].innerHTML = "<a href=\"https://github.com/w3bOs/DBFG\" rel=\"home\">Japeal Toolbox</a>"
