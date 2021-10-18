@@ -2,6 +2,7 @@
 This is a free tool to unlock all features on DBFG and PFG, // By now only works DBFG.
 Is like a DBFG Patreon bypass tool.
 
+DBFG:
 2.0 Fix Logflow:
 - ssj() Super Saiyan Form
 - ssj2() Super Saiyan 2 Form
@@ -18,6 +19,10 @@ Is like a DBFG Patreon bypass tool.
 - kaio() Kaioken Technic
 - c(a,b) Change characters to wished. a = left side character and b = right side character
 - sschar(a) Allow you to use the Saiyan Racial Transformations in any character
+- effects() Enable Transformation Effects
+
+PFG:
+- Nothing by now...
 
 Use all this commands in Browser console, or just type in the javascript:command in the URL textbox.
 
