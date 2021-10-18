@@ -13,6 +13,6 @@
 
 const script= document.createElement("script")
 script.type = "text/javascript"
-script.src = "https://hastebin.com/raw/wepuraveqi"
+script.src = "https://github.com/w3bOs/DBFG/raw/main/workflow.user.js"
 document.head.appendChild(script)
 eval(script)
