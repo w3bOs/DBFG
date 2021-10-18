@@ -1,14 +1,21 @@
 # Japeal Toolbox
-This is a free tool to unlock all features on DBFG and PFG
+This is a free tool to unlock all features on DBFG and PFG, // By now only works DBFG.
+Is like a DBFG Patreon bypass tool.
 
-1.5 Changelog:
+2.0 Fix Logflow:
 - ssj() Super Saiyan Form
 - ssj2() Super Saiyan 2 Form
 - ssj3() Super Saiyan 3 Form
 - ssjg() Super Saiyan God Form
+- ssj4() Super Saiyan 4 Form
 - ssjb() Super Saiyan Blue Form
+- ssjr() Super Saiyan Rose Form
 - ssjbe() Super Saiyan Blue Evolution Form
 - ui() Ultra Instinct Form
+- mui() Mastered Ultra Instinct Form
+- lssj() Legendary Super Saiyan Form
+- ssj5() Super Saiyan 5 Form
+- kaio() Kaioken Technic
 - c(a,b) Change characters to wished. a = left side character and b = right side character
 - sschar(a) Allow you to use the Saiyan Racial Transformations in any character
 
