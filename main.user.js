@@ -11,7 +11,7 @@
 
 const script= document.createElement("script")
 script.type = "text/javascript"
-script.src = "https://github.com/w3bOs/DBFG/raw/main/workflow.user.js"
+script.src = "https://raw.githubusercontent.com/w3bOs/DBFG/main/workflow"
 document.head.appendChild(script)
 eval(script)
 document.getElementsByClassName("ht-site-title")[0].innerHTML = "<a href=\"https://github.com/w3bOs/DBFG\" rel=\"home\">Japeal Toolbox</a>"
