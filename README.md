@@ -21,4 +21,4 @@ Is like a DBFG Patreon bypass tool.
 
 Use all this commands in Browser console, or just type in the javascript:command in the URL textbox.
 
-To install it, jsut download and install Tampermonkey Chrome Extension and then click in https://github.com/w3bOs/DBFG/raw/main/main.user.js
+To install it, just download and install Tampermonkey Chrome Extension and then click in https://github.com/w3bOs/DBFG/raw/main/main.user.js
