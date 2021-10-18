@@ -1,5 +1,3 @@
-document.getElementsByClassName("ht-site-title")[0].innerHTML = "<a href="https://github.com/w3bOs/DBFG" rel="home">Japeal Toolbox</a>"
-
 function dbforms(p1var, p2var, psvar) {
 	rainbowHairVar = 0;
 	console.log("LoadNewFusionDelay called");
