@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Japeal ToolKit
 // @namespace    https://github.com/w3bOs/DBFG/raw/main/main.user.js
-// @version      1.5
-// @description  ssj4() ssj5() lssj() mui() ssjr() kaio() characters() megaevo() shiny() ssj() ssj2() ssj3() ssjg() ssjb() ssjbe() ui() c() sschar()
+// @version      2.0
+// @description  Dragon Ball Fusion Generator Toolbox
 // @author       CiberWeaboo
 // @include      https://japeal.com/dbfg/
 // @include      https://japeal.com/pkm/
