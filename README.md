@@ -3,7 +3,11 @@ This is a free tool to unlock all features on DBFG and PFG, // By now only works
 Is like a DBFG Patreon bypass tool.
 
 DBFG:
-2.0 Fix Logflow:
+3.0 Fixes:
+- Code randomly stop working due to hastebin deleting the paste. (Now it will work, until japeal devs fix this)
+
+
+Commands:
 - ssj() Super Saiyan Form
 - ssj2() Super Saiyan 2 Form
 - ssj3() Super Saiyan 3 Form
