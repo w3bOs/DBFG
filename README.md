@@ -5,6 +5,7 @@ Is like a DBFG Patreon bypass tool.
 DBFG:
 4.0 Fixes:
 - Added Ultra Ego Support: ultraego()
+- Added Base Form: base()
 
 
 Commands:
@@ -21,6 +22,7 @@ Commands:
 - lssj() Legendary Super Saiyan Form
 - ssj5() Super Saiyan 5 Form
 - ultraego() Ultra Ego Form
+- base() Base Form
 - kaio() Kaioken Technic
 - c(a,b) Change characters to wished. a = left side character and b = right side character
 - sschar(a) Allow you to use the Saiyan Racial Transformations in any character
