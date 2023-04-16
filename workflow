@@ -687,6 +687,10 @@ function ultraego() {
 	dbforms(-3, -3, 13);
 }
 
+function base() {
+	dbforms(-3, -3, 0);
+}
+
 function kaio() {
 	KaiokenOn();
 }
