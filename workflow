@@ -683,6 +683,10 @@ function lssj() {
 	dbforms(-3, -3, 12);
 }
 
+function ultraego() {
+	dbforms(-3, -3, 13);
+}
+
 function kaio() {
 	KaiokenOn();
 }
