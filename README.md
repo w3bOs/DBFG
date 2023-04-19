@@ -32,4 +32,5 @@ PFG:
 
 Use all this commands in Browser console, or just type in the javascript:command in the URL textbox.
 
-To install it, just download and install Tampermonkey Chrome Extension and then click in https://github.com/w3bOs/DBFG/raw/main/main.user.js
+To install it, just download and install Tampermonkey Chrome Extension: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=es
+And then click in https://github.com/w3bOs/DBFG/raw/main/main.user.js
