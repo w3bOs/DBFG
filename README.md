@@ -3,9 +3,8 @@ This is a free tool to unlock all features on DBFG and PFG, // By now only works
 Is like a DBFG Patreon bypass tool.
 
 DBFG:
-4.0 Fixes:
-- Added Ultra Ego Support: ultraego()
-- Added Base Form: base()
+5.0 Fixes:
+- Added a command bar to execute the commands. (Instead of using Inspect Element)
 
 
 Commands:
