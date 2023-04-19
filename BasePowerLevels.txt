@@ -106,7 +106,7 @@ Gogeta=151.200
 Kefla=154.560
 Champa=159.600
 Cooler (Final Form)=168.000
-Yamu 170.800
+Yamu=170.800
 Dr. Gero=172.200
 Spopovich=176.400
 Chilled=184.800
@@ -167,7 +167,7 @@ Kanba=7.350.000
 Beerus=8.232.000
 Rycon=8.391.600
 Kermit=8.400.000
-Toppo (G.O.D) 8.484.000
+Toppo (G.O.D)=8.484.000
 Broly (LSS)=8.820.000
 Sealas=9.240.000
 Vados=9.240.000
