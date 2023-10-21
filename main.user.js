@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Japeal Toolbox v2
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.0
 // @description  Dragon Ball Fusion Generator Toolbox
 // @author       Ciber
 // @match        https://japeal.com/dbfg/
