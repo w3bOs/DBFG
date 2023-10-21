@@ -27,6 +27,9 @@ function JPv2() {
     document.querySelector("#PUButtonsSS4").setAttribute("onclick", "MasterSSCheckPre(-3, -3, 5)");
     document.querySelector("#PUButtonsSS4").setAttribute("src", "PUButtonsSS4.png");
 
+	document.querySelector("#PUButtonsSSR").setAttribute("onclick", "MasterSSCheckPre(-3, -3, 8)");
+    document.querySelector("#PUButtonsSSR").setAttribute("src", "PUButtonSSR.png");
+
     document.querySelector("#PUButtonsSS5").setAttribute("onclick", "MasterSSCheckPre(-3, -3, 11)");
     document.querySelector("#PUButtonsSS5").setAttribute("src", "PUButtonsSS5.png");
 
