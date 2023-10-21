@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Japeal Toolbox v2
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Dragon Ball Fusion Generator Toolbox
 // @author       Ciber
 // @match        https://japeal.com/dbfg/
 // @grant        none
 // ==/UserScript==
 
-const toolTitle = "Japeal Toolbox Enabled";
+const toolTitle = "Japeal Toolbox v2";
 const toolUrl = "https://github.com/w3bOs/DBFG";
 
 function JPv2() {
