@@ -4,7 +4,8 @@
 // @version      1.0
 // @description  Dragon Ball Fusion Generator Toolbox
 // @author       Ciber
-// @match        https://japeal.com/*
+// @match        https://japeal.com/dbfg
+// @match        https://japeal.com/DBFG
 // @grant        none
 // ==/UserScript==
 
