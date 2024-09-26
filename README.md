@@ -14,7 +14,7 @@ DBFG:
 # Installation
 
 ### PC
-Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=es), and then install [Japeal Toolbox v2](https://github.com/w3bOs/DBFG/raw/main/main.user.js).
+Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=es), and then install [Japeal Toolbox](https://github.com/w3bOs/DBFG/raw/main/main.user.js).
 
 ### Android
 Install [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser), then install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=es) and then install [Japeal Toolbox v2](https://github.com/w3bOs/DBFG/raw/main/main.user.js).
