@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Japeal Toolbox v2
+// @name         Japeal Toolbox v3
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Dragon Ball Fusion Generator Toolbox
@@ -8,10 +8,10 @@
 // @grant        none
 // ==/UserScript==
 
-const toolTitle = "Japeal Toolbox v2";
+const toolTitle = "Japeal Toolbox v3";
 const toolUrl = "https://github.com/w3bOs/DBFG";
 
-function JPv2() {
+function JPv3() {
 
     // Title Change
     document.getElementsByClassName("ht-site-title")[0].firstChild.innerHTML = toolTitle;
@@ -19,6 +19,22 @@ function JPv2() {
 
     // VIP Activation :P
     window.VIPstatus = "Y";
+
+    // Character Patches
+
+    Array.from(document.getElementById("s1")).forEach((c1) => {
+        if (c1.innerHTML.includes("🔒")) {
+            c1.innerHTML = c1.innerHTML.replace("🔒", "");
+            c1.removeAttribute("style");
+        }
+    });
+
+    Array.from(document.getElementById("s2")).forEach((c2) => {
+        if (c2.innerHTML.includes("🔒")) {
+            c2.innerHTML = c2.innerHTML.replace("🔒", "");
+            c2.removeAttribute("style");
+        }
+    });
 
     // Forms Patches
     document.querySelector("#kbtn").setAttribute("onclick", "KaiokenOn()");
@@ -39,29 +55,24 @@ function JPv2() {
     document.querySelector("#PUButtonsUE").setAttribute("onclick", "MasterSSCheckPre(-3, -3, 13)");
     document.querySelector("#PUButtonsUE").setAttribute("src", "PUButtonsUE.png");
 
-	// Background Patches
-	var bg1Elements = [19, 21, 23, 24, 25, 26, 29, 30, 31];
+    // All forms always available patches
 
-	bg1Elements.forEach(function(n) {
-		document.getElementById(`idBG${n}`).setAttribute("onclick", `changeBG${n}();`);
-		document.getElementById(`idBG${n}`).setAttribute("src", `Backgrounds/sprBG0_${n}.jpg`);
-	});
+    var characters = [];
 
-	// Background Patches 2
-	var lockedBGs = Array.from(document.getElementsByClassName("lockedBGClass"));
+    Array.from(document.getElementById("s1").childNodes).forEach((char) => {
+        if (char.__proto__.constructor.name != "Text") {
+            characters.push(char.value);
+        }
+    })
+    window.saiyanarray1 = characters;
 
-	lockedBGs.forEach(function(bgElement) {
-		bgElement.remove();
-	});
+    // Effects unlock
 
-	var bg2Elements = [5, 7, 8, 9, 10, 13, 14, 16, 17, 18, 19, 20, 21, 22, 25, 26, 29, 32];
-
-	bg2Elements.forEach(function(n) {
-		document.querySelector(`#idArtBG${n}`).setAttribute("onclick", `changeBG(${n});`);
-		document.querySelector(`#idArtBG${n}`).parentElement.setAttribute("onclick", "");
-	});
+    setCookie("bonus05Teffect", 1, 365);
 
 }
 
-// Execute the tool every 1 second (1000 miliseconds)
-setTimeout(JPv2, 1000);
+// Execute the tool every 1 second (1000 miliseconds) when the entire page loads
+window.addEventListener('load', function() {
+    setTimeout(JPv3, 1000);
+}, false);
